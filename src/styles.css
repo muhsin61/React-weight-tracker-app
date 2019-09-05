@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+}
+body {
+  background: #c0dfd9;
+}
+.search {
+  border: none;
+  background-color: #c0dfd9;
+  border-bottom: solid 2px rgb(136, 31, 206);
+  padding: 10px;
+}
+.addButton {
+  padding: 10px;
+  background-color: #c0dfd9;
+  border: none;
+  border-bottom: 2px solid rgb(136, 31, 206);
+  border-right: 2px solid rgb(136, 31, 206);
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+.addButton:hover {
+  background-color: #98e779;
+  border-top-left-radius: 20px;
+}
+.addBar {
+  position: relative;
+  left: 0%;
+}
+.ekle {
+  border: 1px blue solid;
+  padding: 10px;
+  display: block;
+  position: fixed;
+  width: 20%;
+}
+.recharts-wrapper {
+  position: "fixed";
+  left: 25%;
+}
+.shwbtn {
+  border: none;
+  cursor: pointer;
+  background-color: #98e779;
+  padding: 10px;
+  width: 110%;
+}
+.shwbtn:hover {
+  background-color: rgb(201, 49, 49);
+}
+.addT {
+  padding: 5px;
+  width: 90%;
+  margin: 5px;
+  left: 0%;
+}
